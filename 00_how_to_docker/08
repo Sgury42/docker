@@ -1,0 +1,2 @@
+docker run --rm -i alpine
+// -i = interactif alpine = container shell 
