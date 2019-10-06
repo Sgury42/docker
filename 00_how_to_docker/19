@@ -1,1 +1,3 @@
-docker run -d --name Abathur -p 3000:3000 -v /root:/home/mypython python:2-slim
+docker run -d --name Abathur -p 3000:3000 --mount /home/mypython:/root python:2-slim
+docker start Abathur
+docker exec -it Abathur bash
